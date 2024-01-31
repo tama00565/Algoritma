@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung luar segitiga</title>
+</head>
+<body>
+    <script>
+        // input
+      let alas = 12;
+      let tinggi = 15;
+        // proses
+      let hasil = (1/2) * alas * tinggi;
+        // output
+      console.log(hasil)
+
+    //   input
+        let phi = 3.14;
+        let r = 10;
+
+        let jawaban = Math.round(phi * 2 * r);
+
+        console.log(jawaban)
+    // 
+    let panjang = 40;
+    let lebar = 25;
+    let hasilnya = panjang * lebar;
+    console.log (hasilnya);
+    // 
+    let tahunlahir = 2007;
+    let tahunsekarang = 2023;
+    let umur = tahunsekarang-tahunlahir;
+    console.log(`umur saya adalah ${umur} tahun`)
+    // console.log(umur + ' ' + 'tahun');
+    // 
+    let nilai = 80;
+
+    if(nilai > 80) {
+        hsl = "tidak kompeten";
+    } else if (nilai >= 80) {
+        hsl = "kompeten";
+    }
+    
+    console.log(hsl)
+    // 
+    let x = 5;
+    let y = 10;
+    let z = 15;
+    if (x>y && x>z) {console.log("x = "+x+" keren");}
+    else if (z>x && z>y) {
+        console.log("z = "+z+" Gustama");}
+    else{
+        console.log("y = " +y+ "Kw");
+    }
+    // menentukan bilangan terbesar dari 3 bilangan 
+
+    // nomor 1
+    let bil1 = 20;
+    let bil2 = 50;
+    let bil3 = 30;
+
+    // logik
+    if(bil1>bil2 && bil1>bil3){
+        console.log("bilangan satu terbesar")
+    } else if(bil2>bil1 && bil2>bil3){
+        console.log("bilangan kedua yang terbesar")
+    } else if(bil3>bil1 && bil3>bil2){
+        console.log("bilangan ketiga yang terbesar")
+    }
+
+    // nomor 3
+    let lampu = 2;
+    if(lampu == 0){
+        console.log("OFF")
+    } else if(lampu == 1) {
+        console.log("ON")
+    } else {
+        console.log("Masukan angka 1 atau 0")
+    }
+    //////////////////////////////////////////////////////////
+    // nomor 4 menjumlahkan  harga barang yang dibeli dan diberidiskon
+    let sepatu = 1320000;
+    let celana = 79000;
+    let corduroy = 183000;
+
+    let total = sepatu + celana + corduroy;
+
+    if (total > 100000) {
+        diskon = total * (10/100);
+        bayar = total - diskon;
+    } else {
+        bayar = total;
+    }
+
+    console.log(bayar);
+    // nomor 5 gaji jam lembur
+    let jamlembur = 6;
+
+    if (jamlembur < 6) {
+        gajilembur = 'gaji lembur anda berjumlah Rp 100.000';
+    } else if (jamlembur == 6) {
+        gajilembur = 'gaji lembur anda berjumlah Rp 200.000';
+    } else if (jamlembur > 6) {
+        gajilembur = 'gaji lembur anda berjumlah Rp 300.000';
+    }
+
+    console.log(gajilembur);
+
+    // nomor 6 peringatan ketinggian pada air 
+    let tinggiair = 600.1;
+
+    if (tinggiair <= 500.0) {
+        kondisi = 'aman';
+    } else if (tinggiair <= 600.0) {
+        kondisi = 'waspada';
+    } else if (tinggiair <= 650.0) {
+        kondisi = 'siaga 2';
+    } else if (tinggiair > 650) {
+        kondisi = 'siaga 1'
+    }
+
+    console.log(kondisi);
+    </script>
+</body>
+</html>
